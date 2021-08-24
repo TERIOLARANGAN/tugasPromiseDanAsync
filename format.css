@@ -1,0 +1,27 @@
+body{
+display: flex;
+flex-direction: row;
+font-size: 20px;
+background-image: url("https://icatcare.org/app/uploads/2018/07/Thinking-of-getting-a-cat.png");
+background-size: auto;
+}
+
+.square1{
+width: 100%;
+height: fit-content;
+border: 5px solid purple;
+background-color: cadetblue;
+box-sizing: border-box;
+flex: 50%;
+}
+
+.square2{
+border: 5px solid purple;
+background-color: white;
+}
+
+@media (max-width: 800px) {
+body{
+flex-direction: column;
+}
+      }
